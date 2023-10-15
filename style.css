@@ -157,6 +157,7 @@
     background-color: rgb(114, 114, 92);
 }
 #portfolio{
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
