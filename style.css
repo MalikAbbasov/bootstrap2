@@ -1,0 +1,191 @@
+.bar{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 183, 134);
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+}
+.home{
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home img{
+    width: 100%;
+    height: 100vh;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: aliceblue;
+}
+.text1 h1{
+    font-style: initial;
+    font-size: 60px;
+}
+.text1 h3{
+    font-style: italic;
+    font-size: 20px;
+}
+.text1 button{
+    margin-top: 30px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+.container1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.container1 h1{
+    color: black;
+    font-style: initial;
+    font-size: 30px;
+}
+.container1 p{
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.container1 button{
+    margin-top: 50px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: rgb(46, 43, 43);
+    color: rgb(255, 255, 255);
+}
+.container2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(68, 147, 216);
+    color: aliceblue;
+}
+.container2 h3{
+    color: yellow;
+    font-size: 25px;
+}
+.container2 h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.container2 .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(225, 228, 231);
+    gap: 30px;
+}
+.icon-screen{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px 15px 10px 15px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(238, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container2 p{
+    font-size: 15px;
+}
+.container2 strong{
+    font-size: 20px;
+}
+.container3{
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3 img{
+    width: 100%;
+    height: 100vh;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: aliceblue;
+}
+.text2 h1{
+    font-style: initial;
+    font-size: 60px;
+}
+.text2 button{
+    margin-top: 30px;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 10px;
+}
+.text2 button:hover{
+    cursor: pointer;
+    background-color: rgb(114, 114, 92);
+}
+#portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+.sekil{
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+
+}
+.sekil img{
+    width: 100%;
+    height: 100%;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo .text{
+    position: absolute ;
+}
+
+
